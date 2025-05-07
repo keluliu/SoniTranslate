@@ -1,0 +1,32 @@
+# Audio + Signal tools
+praat-parselmouth>=0.4.3
+pyworld==0.3.2
+faiss-cpu==1.7.3
+torchcrepe==0.0.20
+ffmpeg-python>=0.2.0
+
+# Fairseq + compatible dependencies
+fairseq==0.12.2
+omegaconf==2.0.6
+hydra-core==1.0.7
+pyyaml==6.0
+
+# General utils
+gdown
+rarfile
+transformers
+accelerate
+optimum
+sentencepiece
+srt
+
+# OpenVoice (RVC-style)
+git+https://github.com/R3gm/openvoice_package.git@lite
+
+# OpenAI API
+openai==1.14.3
+tiktoken==0.6.0
+
+# Document handling
+pypdf==4.2.0
+python-docx
